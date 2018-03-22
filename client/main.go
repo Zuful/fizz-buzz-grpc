@@ -7,7 +7,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"
-	pb "bitbucket.com/go"
+	pb "bitbucket.org/zuful/fizz-buzz-grpc-protobuf-go"
 
 )
 
