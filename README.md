@@ -1,6 +1,6 @@
 # README #
 
-This document will guide you through the set up of the service.
+This document will guide you through the set up of the gRPC service.
 
 ### Dependency manager ###
 
@@ -14,5 +14,8 @@ This document will guide you through the set up of the service.
 
 ### Launching the service ###
 
-* In the command line go to the root of the project directory
-* Type the following command : go run main.go fizzbuzz.handler.go
+* In a command line window enter in the "server" directory
+* Type the following command to launch the gRPC server : go run main.go
+* In a different command line window enter in the "client" directory
+* Type the following command to call the gRPC server : go run main.go <string1> <string2> <int1> <int2> <limit>
+
